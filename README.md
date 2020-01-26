@@ -1,12 +1,12 @@
-* 基于nginx的ssl测试服务容器
+# 基于nginx的ssl测试服务容器
 
-下载image：
+## 下载image
 
 ```bash
 $ docker pull alchemy-studio/NginxSsl
 ```
 
-手工启动容器：
+## 手工启动容器
 
 ```bash
 $ docker run -it -p 443:443 alchemy-studio/NginxSsl sh
@@ -24,7 +24,7 @@ root# nginx
 curl -k -v https://localhost
 ```
 
-自动启动容器：
+## 自动启动容器和服务
 
 ```bash
 $ docker-compose up
