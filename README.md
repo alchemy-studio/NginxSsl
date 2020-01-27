@@ -35,6 +35,10 @@ $ curl -k -v --resolve bar.io:443:127.0.0.1 https://bar.io
 ## 自动启动容器和服务
 
 ```bash
+$ docker-compose pull
+```
+
+```bash
 $ docker-compose up
 ```
 
