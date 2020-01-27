@@ -24,6 +24,14 @@ root# nginx
 $ curl -k -v https://localhost
 ```
 
+```bash
+$ curl -k -v --resolve foo.io:443:127.0.0.1 https://foo.io
+```
+
+```bash
+$ curl -k -v --resolve bar.io:443:127.0.0.1 https://bar.io
+```
+
 ## 自动启动容器和服务
 
 ```bash
