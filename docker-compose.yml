@@ -4,5 +4,6 @@ services:
   nginx:
     image: alchemystudio/nginx-ssl    
     restart: always
+    entrypoint: /root/entrypoint.sh
     ports:
       - 443:443
