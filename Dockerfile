@@ -8,6 +8,7 @@ RUN sh /root/setup.sh
 COPY gencert.sh /root/
 COPY nginx-ssl.conf /root/
 RUN sh /root/gencert.sh
+COPY entrypoint.sh /root/
 
 
 
