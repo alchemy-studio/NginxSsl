@@ -21,7 +21,7 @@ root# nginx
 在host宿主访问服务：
 
 ```bash
-curl -k -v https://localhost
+$ curl -k -v https://localhost
 ```
 
 ## 自动启动容器和服务
