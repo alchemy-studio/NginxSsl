@@ -3,13 +3,13 @@
 ## 下载image
 
 ```bash
-$ docker pull alchemy-studio/NginxSsl
+$ docker pull alchemystudio/nginx-ssl
 ```
 
 ## 手工启动容器
 
 ```bash
-$ docker run -it -p 443:443 alchemy-studio/NginxSsl sh
+$ docker run -it -p 443:443 alchemystudio/nginx-ssl sh
 ```
 
 进入容器shell后启动`nginx`：
