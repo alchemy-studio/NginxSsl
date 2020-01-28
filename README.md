@@ -1,5 +1,11 @@
 # 基于nginx的ssl测试服务容器
 
+## 部署结构
+
+架构图：
+
+![](https://raw.githubusercontent.com/alchemy-studio/nginx-ssl/master/FF91A024-2B1D-4F3A-AA29-449C18E16082.png)
+
 ## 下载image
 
 ```bash
