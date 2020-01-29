@@ -54,4 +54,5 @@ $ docker-compose up
 * [使用wireshark对https通信进行数据捕获（下）](http://weinan.io/2020/01/28/ssl.html)
 * [用nginx架设tls/sni服务（一）](http://weinan.io/2020/01/10/nginx.html)
 * [用nginx架设tls/sni服务（二）](http://weinan.io/2020/01/14/nginx.html)
+* [用nginx架设tls/sni服务（三）](http://weinan.io/2020/01/29/ssl.html)
 
